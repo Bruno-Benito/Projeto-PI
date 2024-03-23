@@ -1,0 +1,12 @@
+C:\Users\benit\Desktop\atividades\PortifolioAPI\Portifolio.Data\bin\Debug\net7.0\Portifolio.Data.deps.json
+C:\Users\benit\Desktop\atividades\PortifolioAPI\Portifolio.Data\bin\Debug\net7.0\Portifolio.Data.dll
+C:\Users\benit\Desktop\atividades\PortifolioAPI\Portifolio.Data\bin\Debug\net7.0\Portifolio.Data.pdb
+C:\Users\benit\Desktop\atividades\PortifolioAPI\Portifolio.Data\obj\Debug\net7.0\Portifolio.Data.csproj.AssemblyReference.cache
+C:\Users\benit\Desktop\atividades\PortifolioAPI\Portifolio.Data\obj\Debug\net7.0\Portifolio.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benit\Desktop\atividades\PortifolioAPI\Portifolio.Data\obj\Debug\net7.0\Portifolio.Data.AssemblyInfoInputs.cache
+C:\Users\benit\Desktop\atividades\PortifolioAPI\Portifolio.Data\obj\Debug\net7.0\Portifolio.Data.AssemblyInfo.cs
+C:\Users\benit\Desktop\atividades\PortifolioAPI\Portifolio.Data\obj\Debug\net7.0\Portifolio.Data.csproj.CoreCompileInputs.cache
+C:\Users\benit\Desktop\atividades\PortifolioAPI\Portifolio.Data\obj\Debug\net7.0\Portifolio.Data.dll
+C:\Users\benit\Desktop\atividades\PortifolioAPI\Portifolio.Data\obj\Debug\net7.0\refint\Portifolio.Data.dll
+C:\Users\benit\Desktop\atividades\PortifolioAPI\Portifolio.Data\obj\Debug\net7.0\Portifolio.Data.pdb
+C:\Users\benit\Desktop\atividades\PortifolioAPI\Portifolio.Data\obj\Debug\net7.0\ref\Portifolio.Data.dll

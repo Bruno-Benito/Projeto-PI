@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "yooHuelwupgafqjo1LWKqMBUPctyfKmT0doFBpzpY84z4v+Bab9VMZP5gRGQI00RDSTxr15ajf1cmo4FMuOAdQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\benit\\Desktop\\atividades\\PortifolioAPI\\Portifolio.API\\Portifolio.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\benit\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
+    "C:\\Users\\benit\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\benit\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\benit\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\benit\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\benit\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\benit\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
