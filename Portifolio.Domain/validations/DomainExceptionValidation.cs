@@ -10,10 +10,10 @@ namespace Portifolio.Domain.validations
        public DomainExceptionValidation(string error) : base(error)
        {
        }
-        public static void ExceptionHandler(bool HasError, string errorcx)
+        public static void ExceptionHandler(bool HasError, string error)
             {
                 if (HasError)
-                {
+                {   
                     throw new DomainExceptionValidation(error);
                 }
             } 
