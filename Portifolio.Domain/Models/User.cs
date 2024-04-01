@@ -8,23 +8,27 @@ using Portifolio.Domain.validations;
 namespace Portifolio.Domain.Models
 {
     public sealed class User : EntityBase
-    {   
-        public int Age { get; private set; } 
+    {
+        public int Age { get; private set; }
         public string Name { get; private set; }
         public string Passworld { get; private set; } = "";
-        public User(string name, string passworld,int age)
+        public User(string name, string passworld, int age)
         {
+            ValidateName(name);
+            ValidateAge(age);
+
             Age = age;
             Name = name;
             Passworld = passworld;
         }
-        public void ValidateDomain(string name)
+        public void ValidateName(string name)
         {
             DomainExceptionValidation.ExceptionHandler(string.IsNullOrEmpty(name), "Invalid Name. name is required!");
+            DomainExceptionValidation.ExceptionHandler(name.Length > 30, "is name tool long");
         }
-        public User(string name)
+        public void ValidateAge(int age)
         {
-            ValidateDomain(name);
+            DomainExceptionValidation.ExceptionHandler(age <= 0, "Age invalid");
         }
     }
 }
