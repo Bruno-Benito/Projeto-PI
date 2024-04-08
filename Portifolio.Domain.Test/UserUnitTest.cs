@@ -27,11 +27,39 @@ namespace Portifolio.Domain.Test
             .WithMessage("Invalid Name. name is required!");
          }
       [Fact]
+
+      public void WhenNameUser_IsNotNull_DomainException()
+      {
+         Action user=()=> new User("a","UserPassworld",18);
+         user.Should().Throw<DomainExceptionValidation>()
+         .WithMessage("Result Ok");
+      }
+      [Fact]
+
+      public void WhenNameUser_LengthNotToolLong_DomainException()
+      {
+         Action user=()=> new User("namenolong","UserPassworld",18);
+         user.Should().Throw<DomainExceptionValidation>()
+         .WithMessage("Result Ok, Name is Valid");
+      }
+
+      [Fact]
          public void WhenAgeUser_MoreThan0_DomainException()
          {
             Action user=()=> new User("UserName","UserPassworld",0);
             user.Should().Throw<DomainExceptionValidation>()
             .WithMessage("Age invalid");
          }
+
+       [Fact]
+         public void WhenAgeUser_MoreNotThan0_DomainException()
+         {
+            Action user=()=> new User("UserName","UserPassworld",18);
+            user.Should().Throw<DomainExceptionValidation>()
+            .WithMessage("Age valid");
+         }
+      
+
+         
    }
 }

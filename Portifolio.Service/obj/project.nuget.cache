@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IEhdjyWRedDhqDR8Z5B4v1s+q0kHt5LsgsY2eBrlDJV0sHltWthYUuFCFduEuRFz2GoRZiV0qMoiJKkJYYn64w==",
+  "dgSpecHash": "Pv1lzH7HKhoodn9945O80EepnrVgYXnlV0Jz5LoLeez1caoJn9stNQUNZA5YWgnyols8RGVpwtPLYSxT87S2WA==",
   "success": true,
   "projectFilePath": "C:\\Users\\benit\\Desktop\\atividades\\PortifolioAPI\\Portifolio.Service\\Portifolio.Service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\benit\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\benit\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\benit\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -25,10 +25,15 @@ namespace Portifolio.Domain.Models
         {
             DomainExceptionValidation.ExceptionHandler(string.IsNullOrEmpty(name), "Invalid Name. name is required!");
             DomainExceptionValidation.ExceptionHandler(name.Length > 30, "is name tool long");
+            DomainExceptionValidation.ExceptionHandler(name.Length < 30, "Result Ok, Name is Valid");
+            DomainExceptionValidation.ExceptionHandler(name.Length > 0, "Result Ok");
+
         }
         public void ValidateAge(int age)
-        {
+        {   
             DomainExceptionValidation.ExceptionHandler(age <= 0, "Age invalid");
+            DomainExceptionValidation.ExceptionHandler(age >0, "Age valid");
+
         }
     }
 }

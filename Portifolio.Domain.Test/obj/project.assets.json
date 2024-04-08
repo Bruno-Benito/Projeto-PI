@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net8.0": {
       "coverlet.collector/3.1.2": {
         "type": "package",
         "build": {
@@ -1858,7 +1858,7 @@
       },
       "Portifolio.Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
           "bin/placeholder/Portifolio.Domain.dll": {}
         },
@@ -6260,7 +6260,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net8.0": [
       "FluentAssertions >= 6.12.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "Portifolio.Domain >= 1.0.0",
@@ -6285,14 +6285,14 @@
         "C:\\Users\\benit\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
             "C:\\Users\\benit\\Desktop\\atividades\\PortifolioAPI\\Portifolio.Domain\\Portifolio.Domain.csproj": {
               "projectPath": "C:\\Users\\benit\\Desktop\\atividades\\PortifolioAPI\\Portifolio.Domain\\Portifolio.Domain.csproj"
@@ -6304,11 +6304,16 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "FluentAssertions": {
             "target": "Package",
@@ -6351,7 +6356,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
